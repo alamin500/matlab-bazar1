@@ -1,0 +1,32 @@
+.section1{
+    
+}
+section{
+     display: flex;
+}
+div{
+     width:50%;
+     float: left;
+     margin-left: 80px;
+     font-family: 'Poppins', sans-serif;
+}
+div img{
+    width: 80%;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color: orange;
+}
+body{
+    margin: 0;
+}
+a{
+    padding: 10px 40px;
+    text-decoration: none;
+    background-color: orangered;
+    border-radius: 10px;
+    color:white;
+    font-weight: 700;
+}
