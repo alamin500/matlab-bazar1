@@ -3,12 +3,14 @@
 }
 section{
      display: flex;
-}
-div{
+     
+}  div{
      width:50%;
      float: left;
      margin-left: 80px;
      font-family: 'Poppins', sans-serif;
+     display: flex;
+     display: block;
 }
 div img{
     width: 80%;
@@ -25,8 +27,24 @@ body{
 a{
     padding: 10px 40px;
     text-decoration: none;
-    background-color: orangered;
+    background-color: rgb(81, 23, 218);
     border-radius: 10px;
     color:white;
     font-weight: 700;
+}
+
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
 }
