@@ -1,10 +1,10 @@
 .section1{
     
 }
-section{
+.section-flexible{
      display: flex;
      
-}  div{
+}  .div1{
      width:50%;
      float: left;
      margin-left: 80px;
@@ -44,7 +44,14 @@ section {
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    box-shadow: 0 0 10px #000;
+    border-left: blue 10px solid;
+    border-image: linear-gradient(
+180deg
+, blue, cyan);
+border-image-slice: 1;
+    
 }
-.half-width img{
+half-width img{
     width: 100%;
 }
